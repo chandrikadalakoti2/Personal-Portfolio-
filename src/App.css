@@ -1,11 +1,184 @@
+html,body{
+  max-width: 100%;
+  max-height: 100%;
+  margin:0px;
+  padding:0px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#upper-cloud{
+  position:absolute;
+  top:0;
+  left:0;
+  width:500px;
 }
+
+#lower-cloud{
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:500px;
+}
+
+#main-content{
+  position:relative;
+  top:150px;
+  left:300px;
+}
+
+#heading{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120px;
+  margin-bottom: 0;
+  color:#282c34;
+}
+
+#navlinks{
+  position:absolute;
+  left:1000px;
+  top:220px;
+  list-style-type: none;
+}
+
+.arrow{
+  opacity:0;
+}
+
+ .arrow:hover{
+  opacity:1;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba (0,0,0,0,0.5);
+  padding:2px 16px;
+  width:90%;
+  background-color: rgba(251, 249, 249, 0.9);
+  margin:20px;
+  border-radius: 10px;
+}
+
+.image{
+  width:100%;
+}
+
+.Proj-name{
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.Proj-desc{
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.link{
+  text-decoration: none;
+  color:rgb(248, 99, 99);
+  line-height: 50px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-head{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  color:#282c34;
+}
+
+#line{
+  width:10%;
+  position:relative;
+  top:500px;
+  left:300px;
+  color:red;
+}
+
+.about-page{
+  display:flex;
+}
+
+.about{
+  width:40%;
+  height: 45em;
+  margin:0;
+  padding: 0;
+  background-color: rgb(217, 64, 64);
+}
+
+
+.details{
+  width:60%;
+}
+
+.mydata{
+ margin-top: 200px; 
+ padding: 30px;
+ line-height: 23px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+
+.projects{
+  display:flex;
+}
+
+.project-firsthalf{
+  width:50%;
+  height:45em;
+  position: sticky;
+  top:0;
+  background-color: rgb(19, 136, 141);
+}
+
+.project-secondhalf{
+  background-color: antiquewhite;
+  width:50%;
+  height:100em;
+}
+
+.project-heading{
+  font-size: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#282c34;
+  display: flex;
+  justify-content: flex-end;
+  margin-top:20%;
+}
+
+.links{
+  text-decoration: none;
+  color:black;
+}
+
+h3{
+  padding:20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+
+h2{
+  color:antiquewhite;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 100px;
+}
+
+.about-text{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.dash{
+  border-bottom: 7px rgb(14, 14, 14) solid;
+  width:5%;
+  display:inline;
+}
+
+h3{text-decoration: none;}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
